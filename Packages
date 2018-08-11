@@ -1,0 +1,23 @@
+Package: cydia
+Version: 1.1.31
+Architecture: iphoneos-arm
+Maintainer: Yangcheesen
+Installed-Size: 7160
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: ./deb/cydia_1.1.31_iphoneos-arm.deb
+Size: 3393264
+MD5sum: 315165ea17f47a5c95b24332ca997e4f
+SHA1: 50a425ee5fd826ca780a4fe7756e59cb2144000a
+SHA256: 12e31d01bc5b9e90f7f5d4b0940d091a32504dd08864a0eef28d7f560b8e452c
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) & Yangcheesen
+Depiction: https://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
